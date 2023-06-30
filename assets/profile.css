@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(19, 19, 19);
+}
+nav{
+    
+    background: linear-gradient(0deg,rgb(19, 19, 19) 37%, rgba(0,0,0,1) 100%);
+}
+nav img{
+    width: 5%;
+}
+hr{
+    color: gainsboro;
+}
+
+#profile{
+    position: relative;
+}
+
+#profile img{
+    width: 80%;
+}
+
+#profile i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: 12px;
+    
+}
+
+#profile i:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#bg{
+    width: 50%;
+    padding-left: 10px;
+    background-color: rgb(135, 134, 134);
+}
+#mat{
+    width: 50%;
+    padding-left: 10px;
+    background-color: rgb(58, 58, 58);
+}
+
+@media screen and (min-width:576px) and (max-width:1200px) {
+    .container-fluid{
+        width: 100%;
+    }
+    nav img{
+        width: 20%;
+    }
+    #profile i{
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+}

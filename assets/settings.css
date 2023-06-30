@@ -1,0 +1,58 @@
+nav img{
+    width: 5%;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+#profile img{
+    width: 30px;
+}
+#profile button{
+  
+   width: 1px;
+   height: 2px;
+   padding-bottom: 15px ;
+}
+nav a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+#hr2{
+    width: 66%;
+}
+
+.container a{
+    color: rgb(36, 177, 253);
+    text-decoration: none;
+}
+
+h4{
+    color: gainsboro;
+}
+#avatar{
+    margin-right: 5px;
+    width: 15%;
+}
+
+#manage{
+    padding-right: 30%;
+}
+#hd{
+    box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.28);
+    border: 1px solid black;
+}
+@media screen and (min-width:576px) and (max-width:1200px) {
+    .container-fluid{
+        width: 100%;
+    }
+    nav img{
+        width: 20%;
+    }
+    #manage{
+       padding-right: 5%;
+    }
+}

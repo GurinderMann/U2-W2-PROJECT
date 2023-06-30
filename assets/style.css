@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+
+nav img{
+    width: 5%;
+}
+#profile{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+#profile img{
+    width: 30px;
+}
+#profile button{
+  
+   width: 1px;
+   height: 2px;
+   padding-bottom: 15px ;
+}
+#geners h1{
+    width: 15%;
+}
+
+.card{
+    width: 100%;
+    
+}
+
+.card img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+footer button{
+    width: 15%;
+}
+a:hover{
+    cursor: pointer;
+}
+ nav a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width:576px) and (max-width:1200px) {
+    nav img{
+        width: 20%;
+    }
+    footer button{
+        width: 45%;
+    }
+}
